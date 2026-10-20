@@ -1,0 +1,2312 @@
+{
+ "ticker docs-casing BTC/USDSO:USDSO": {
+  "ms": 1,
+  "ok": false,
+  "err": "@somnia-chain/markets-sdk: unknown symbol BTC/USDSO:USDSO — call loadMarkets() first",
+  "cls": "InvalidInputError"
+ },
+ "funding docs-casing": {
+  "ms": 0,
+  "ok": false,
+  "err": "@somnia-chain/markets-sdk: unknown symbol BTC/USDSO:USDSO — call loadMarkets() first",
+  "cls": "InvalidInputError"
+ },
+ "ticker BTC-PERP": {
+  "ms": 0,
+  "ok": false,
+  "err": "@somnia-chain/markets-sdk: unknown symbol BTC-PERP — call loadMarkets() first",
+  "cls": "InvalidInputError"
+ },
+ "ticker unknown": {
+  "ms": 0,
+  "ok": false,
+  "err": "@somnia-chain/markets-sdk: unknown symbol FOO/USDso:USDso — call loadMarkets() first",
+  "cls": "InvalidInputError"
+ },
+ "ticker empty": {
+  "ms": 0,
+  "ok": false,
+  "err": "@somnia-chain/markets-sdk: unknown symbol  — call loadMarkets() first",
+  "cls": "InvalidInputError"
+ },
+ "book limit=0": {
+  "ms": 0,
+  "ok": false,
+  "err": "@somnia-chain/markets-sdk: book depth must be a positive safe integer and blockNumber nonnegative",
+  "cls": "InvalidInputError"
+ },
+ "book limit=-1": {
+  "ms": 0,
+  "ok": false,
+  "err": "@somnia-chain/markets-sdk: book depth must be a positive safe integer and blockNumber nonnegative",
+  "cls": "InvalidInputError"
+ },
+ "book limit=1": {
+  "ms": 337,
+  "ok": true,
+  "r": {
+   "symbol": "BTC/USDso:USDso",
+   "chainId": 50383,
+   "bids": [
+    [
+     81696.1,
+     0.01227
+    ]
+   ],
+   "asks": [
+    [
+     82680,
+     0.05357
+    ]
+   ],
+   "blockNumber": "28402381n",
+   "timestamp": 1792492121881,
+   "info": {
+    "bids": [
+     {
+      "price": "81696100000000000000000n",
+      "quantity": "1227000n"
+     }
+    ],
+    "asks": [
+     {
+      "price": "82680000000000000000000n",
+      "quantity": "5357000n"
+     }
+    ],
+    "blockNumber": "28402381n"
+   }
+  }
+ },
+ "book limit=1.5": {
+  "ms": 1,
+  "ok": false,
+  "err": "@somnia-chain/markets-sdk: book depth must be a positive safe integer and blockNumber nonnegative",
+  "cls": "InvalidInputError"
+ },
+ "book limit=1000": {
+  "ms": 343,
+  "ok": true,
+  "r": {
+   "symbol": "BTC/USDso:USDso",
+   "chainId": 50383,
+   "bids": [
+    [
+     81696.1,
+     0.01227
+    ],
+    [
+     81695.6,
+     0.01227
+    ],
+    [
+     81695.3,
+     0.0184
+    ],
+    [
+     81695.2,
+     0.02454
+    ],
+    [
+     81695,
+     0.03681
+    ],
+    [
+     81694.7,
+     0.05521
+    ],
+    [
+     81691.9,
+     0.08589
+    ],
+    [
+     81691.4,
+     0.14725
+    ],
+    [
+     81690.7,
+     0.28223
+    ],
+    [
+     81689.4,
+     0.55219
+    ],
+    [
+     81650.6,
+     0.32786
+    ],
+    [
+     81637,
+     0.01224
+    ],
+    [
+     81612,
+     0.2373
+    ],
+    [
+     81555.5,
+     0.2636
+    ],
+    [
+     81462.8,
+     0.2046
+    ],
+    [
+     81458.8,
+     0.40921
+    ],
+    [
+     81454.8,
+     0.61384
+    ],
+    [
+     81428.7,
+     0.2677
+    ],
+    [
+     81404,
+     0.2483
+    ],
+    [
+     81330.2,
+     0.2681
+    ],
+    [
+     81300,
+     0.07757
+    ],
+    [
+     81222,
+     0.02462
+    ],
+    [
+     81187.2,
+     0.06156
+    ],
+    [
+     81094.5,
+     0.35807
+    ],
+    [
+     81090.3,
+     0.15
+    ],
+    [
+     81070.5,
+     0.00061
+    ],
+    [
+     81020.4,
+     0.00061
+    ],
+    [
+     81004,
+     0.02053
+    ],
+    [
+     81000,
+     0.31482
+    ],
+    [
+     80984.8,
+     0.00061
+    ],
+    [
+     80799,
+     0.02103
+    ],
+    [
+     80594.5,
+     0.2
+    ],
+    [
+     80500,
+     0.03097
+    ],
+    [
+     80437,
+     0.18648
+    ],
+    [
+     80310,
+     0.11531
+    ],
+    [
+     80170,
+     0.01247
+    ],
+    [
+     80111,
+     0.03744
+    ],
+    [
+     80000,
+     0.2125
+    ],
+    [
+     79719.8,
+     0.00125
+    ],
+    [
+     78000,
+     0.14754
+    ],
+    [
+     77000,
+     0.00129
+    ],
+    [
+     76500,
+     0.03921
+    ],
+    [
+     75000,
+     0.01333
+    ],
+    [
+     70000,
+     0.00731
+    ],
+    [
+     1000,
+     4.91458
+    ],
+    [
+     614,
+     0.51697
+    ]
+   ],
+   "asks": [
+    [
+     82680,
+     0.05357
+    ],
+    [
+     82688,
+     0.11421
+    ],
+    [
+     82689,
+     0.36342
+    ],
+    [
+     82700,
+     0.46831
+    ],
+    [
+     82800,
+     0.46236
+    ],
+    [
+     83000,
+     0.29555
+    ],
+    [
+     83200,
+     0.36641
+    ],
+    [
+     83299,
+     0.12004
+    ],
+    [
+     83451,
+     0.41678
+    ],
+    [
+     83880,
+     0.03535
+    ],
+    [
+     83900,
+     0.14804
+    ],
+    [
+     83974,
+     0.43153
+    ],
+    [
+     83980,
+     1.55065
+    ],
+    [
+     84000,
+     0.63032
+    ],
+    [
+     84023,
+     0.40834
+    ],
+    [
+     84025,
+     0.58067
+    ],
+    [
+     84065.7,
+     0.03568
+    ],
+    [
+     84091,
+     0.14108
+    ],
+    [
+     84110,
+     0.24866
+    ],
+    [
+     84361,
+     0.53473
+    ],
+    [
+     84432,
+     0.52001
+    ],
+    [
+     84454,
+     0.01193
+    ],
+    [
+     84477,
+     0.28087
+    ],
+    [
+     84500,
+     0.31077
+    ],
+    [
+     84513,
+     0.53024
+    ],
+    [
+     84556.2,
+     0.24892
+    ],
+    [
+     84590.6,
+     0.08582
+    ],
+    [
+     84674,
+     0.49385
+    ],
+    [
+     84751,
+     0.52886
+    ],
+    [
+     84876,
+     0.13979
+    ],
+    [
+     84985,
+     0.27804
+    ],
+    [
+     85000,
+     0.12309
+    ],
+    [
+     85041,
+     0.33346
+    ],
+    [
+     85500,
+     0.18613
+    ],
+    [
+     85750,
+     0.3201
+    ],
+    [
+     85800,
+     0.02539
+    ],
+    [
+     85920.7,
+     0.02327
+    ],
+    [
+     86000,
+     0.12162
+    ],
+    [
+     86389,
+     0.00878
+    ],
+    [
+     87129,
+     0.03372
+    ],
+    [
+     87290,
+     0.00866
+    ],
+    [
+     87500,
+     0.00987
+    ],
+    [
+     89969.9,
+     0.03334
+    ]
+   ],
+   "blockNumber": "28402381n",
+   "timestamp": 1792492122225,
+   "info": {
+    "bids": [
+     {
+      "price": "81696100000000000000000n",
+      "quantity": "1227000n"
+     },
+     {
+      "price": "81695600000000000000000n",
+      "quantity": "1227000n"
+     },
+     {
+      "price": "81695300000000000000000n",
+      "quantity": "1840000n"
+     },
+     {
+      "price": "81695200000000000000000n",
+      "quantity": "2454000n"
+     },
+     {
+      "price": "81695000000000000000000n",
+      "quantity": "3681000n"
+     },
+     {
+      "price": "81694700000000000000000n",
+      "quantity": "5521000n"
+     },
+     {
+      "price": "81691900000000000000000n",
+      "quantity": "8589000n"
+     },
+     {
+      "price": "81691400000000000000000n",
+      "quantity": "14725000n"
+     },
+     {
+      "price": "81690700000000000000000n",
+      "quantity": "28223000n"
+     },
+     {
+      "price": "81689400000000000000000n",
+      "quantity": "55219000n"
+     },
+     {
+      "price": "81650600000000000000000n",
+      "quantity": "32786000n"
+     },
+     {
+      "price": "81637000000000000000000n",
+      "quantity": "1224000n"
+     },
+     {
+      "price": "81612000000000000000000n",
+      "quantity": "23730000n"
+     },
+     {
+      "price": "81555500000000000000000n",
+      "quantity": "26360000n"
+     },
+     {
+      "price": "81462800000000000000000n",
+      "quantity": "20460000n"
+     },
+     {
+      "price": "81458800000000000000000n",
+      "quantity": "40921000n"
+     },
+     {
+      "price": "81454800000000000000000n",
+      "quantity": "61384000n"
+     },
+     {
+      "price": "81428700000000000000000n",
+      "quantity": "26770000n"
+     },
+     {
+      "price": "81404000000000000000000n",
+      "quantity": "24830000n"
+     },
+     {
+      "price": "81330200000000000000000n",
+      "quantity": "26810000n"
+     },
+     {
+      "price": "81300000000000000000000n",
+      "quantity": "7757000n"
+     },
+     {
+      "price": "81222000000000000000000n",
+      "quantity": "2462000n"
+     },
+     {
+      "price": "81187200000000000000000n",
+      "quantity": "6156000n"
+     },
+     {
+      "price": "81094500000000000000000n",
+      "quantity": "35807000n"
+     },
+     {
+      "price": "81090300000000000000000n",
+      "quantity": "15000000n"
+     },
+     {
+      "price": "81070500000000000000000n",
+      "quantity": "61000n"
+     },
+     {
+      "price": "81020400000000000000000n",
+      "quantity": "61000n"
+     },
+     {
+      "price": "81004000000000000000000n",
+      "quantity": "2053000n"
+     },
+     {
+      "price": "81000000000000000000000n",
+      "quantity": "31482000n"
+     },
+     {
+      "price": "80984800000000000000000n",
+      "quantity": "61000n"
+     },
+     {
+      "price": "80799000000000000000000n",
+      "quantity": "2103000n"
+     },
+     {
+      "price": "80594500000000000000000n",
+      "quantity": "20000000n"
+     },
+     {
+      "price": "80500000000000000000000n",
+      "quantity": "3097000n"
+     },
+     {
+      "price": "80437000000000000000000n",
+      "quantity": "18648000n"
+     },
+     {
+      "price": "80310000000000000000000n",
+      "quantity": "11531000n"
+     },
+     {
+      "price": "80170000000000000000000n",
+      "quantity": "1247000n"
+     },
+     {
+      "price": "80111000000000000000000n",
+      "quantity": "3744000n"
+     },
+     {
+      "price": "80000000000000000000000n",
+      "quantity": "21250000n"
+     },
+     {
+      "price": "79719800000000000000000n",
+      "quantity": "125000n"
+     },
+     {
+      "price": "78000000000000000000000n",
+      "quantity": "14754000n"
+     },
+     {
+      "price": "77000000000000000000000n",
+      "quantity": "129000n"
+     },
+     {
+      "price": "76500000000000000000000n",
+      "quantity": "3921000n"
+     },
+     {
+      "price": "75000000000000000000000n",
+      "quantity": "1333000n"
+     },
+     {
+      "price": "70000000000000000000000n",
+      "quantity": "731000n"
+     },
+     {
+      "price": "1000000000000000000000n",
+      "quantity": "491458000n"
+     },
+     {
+      "price": "614000000000000000000n",
+      "quantity": "51697000n"
+     }
+    ],
+    "asks": [
+     {
+      "price": "82680000000000000000000n",
+      "quantity": "5357000n"
+     },
+     {
+      "price": "82688000000000000000000n",
+      "quantity": "11421000n"
+     },
+     {
+      "price": "82689000000000000000000n",
+      "quantity": "36342000n"
+     },
+     {
+      "price": "82700000000000000000000n",
+      "quantity": "46831000n"
+     },
+     {
+      "price": "82800000000000000000000n",
+      "quantity": "46236000n"
+     },
+     {
+      "price": "83000000000000000000000n",
+      "quantity": "29555000n"
+     },
+     {
+      "price": "83200000000000000000000n",
+      "quantity": "36641000n"
+     },
+     {
+      "price": "83299000000000000000000n",
+      "quantity": "12004000n"
+     },
+     {
+      "price": "83451000000000000000000n",
+      "quantity": "41678000n"
+     },
+     {
+      "price": "83880000000000000000000n",
+      "quantity": "3535000n"
+     },
+     {
+      "price": "83900000000000000000000n",
+      "quantity": "14804000n"
+     },
+     {
+      "price": "83974000000000000000000n",
+      "quantity": "43153000n"
+     },
+     {
+      "price": "83980000000000000000000n",
+      "quantity": "155065000n"
+     },
+     {
+      "price": "84000000000000000000000n",
+      "quantity": "63032000n"
+     },
+     {
+      "price": "84023000000000000000000n",
+      "quantity": "40834000n"
+     },
+     {
+      "price": "84025000000000000000000n",
+      "quantity": "58067000n"
+     },
+     {
+      "price": "84065700000000000000000n",
+      "quantity": "3568000n"
+     },
+     {
+      "price": "84091000000000000000000n",
+      "quantity": "14108000n"
+     },
+     {
+      "price": "84110000000000000000000n",
+      "quantity": "24866000n"
+     },
+     {
+      "price": "84361000000000000000000n",
+      "quantity": "53473000n"
+     },
+     {
+      "price": "84432000000000000000000n",
+      "quantity": "52001000n"
+     },
+     {
+      "price": "84454000000000000000000n",
+      "quantity": "1193000n"
+     },
+     {
+      "price": "84477000000000000000000n",
+      "quantity": "28087000n"
+     },
+     {
+      "price": "84500000000000000000000n",
+      "quantity": "31077000n"
+     },
+     {
+      "price": "84513000000000000000000n",
+      "quantity": "53024000n"
+     },
+     {
+      "price": "84556200000000000000000n",
+      "quantity": "24892000n"
+     },
+     {
+      "price": "84590600000000000000000n",
+      "quantity": "8582000n"
+     },
+     {
+      "price": "84674000000000000000000n",
+      "quantity": "49385000n"
+     },
+     {
+      "price": "84751000000000000000000n",
+      "quantity": "52886000n"
+     },
+     {
+      "price": "84876000000000000000000n",
+      "quantity": "13979000n"
+     },
+     {
+      "price": "84985000000000000000000n",
+      "quantity": "27804000n"
+     },
+     {
+      "price": "85000000000000000000000n",
+      "quantity": "12309000n"
+     },
+     {
+      "price": "85041000000000000000000n",
+      "quantity": "33346000n"
+     },
+     {
+      "price": "85500000000000000000000n",
+      "quantity": "18613000n"
+     },
+     {
+      "price": "85750000000000000000000n",
+      "quantity": "32010000n"
+     },
+     {
+      "price": "85800000000000000000000n",
+      "quantity": "2539000n"
+     },
+     {
+      "price": "85920700000000000000000n",
+      "quantity": "2327000n"
+     },
+     {
+      "price": "86000000000000000000000n",
+      "quantity": "12162000n"
+     },
+     {
+      "price": "86389000000000000000000n",
+      "quantity": "878000n"
+     },
+     {
+      "price": "87129000000000000000000n",
+      "quantity": "3372000n"
+     },
+     {
+      "price": "87290000000000000000000n",
+      "quantity": "866000n"
+     },
+     {
+      "price": "87500000000000000000000n",
+      "quantity": "987000n"
+     },
+     {
+      "price": "89969900000000000000000n",
+      "quantity": "3334000n"
+     }
+    ],
+    "blockNumber": "28402381n"
+   }
+  }
+ },
+ "book limit=undefined": {
+  "ms": 348,
+  "ok": true,
+  "r": {
+   "symbol": "BTC/USDso:USDso",
+   "chainId": 50383,
+   "bids": [
+    [
+     81696.1,
+     0.01227
+    ],
+    [
+     81695.6,
+     0.01227
+    ],
+    [
+     81695.3,
+     0.0184
+    ],
+    [
+     81695.2,
+     0.02454
+    ],
+    [
+     81695,
+     0.03681
+    ],
+    [
+     81694.7,
+     0.05521
+    ],
+    [
+     81691.9,
+     0.08589
+    ],
+    [
+     81691.4,
+     0.14725
+    ],
+    [
+     81690.7,
+     0.28223
+    ],
+    [
+     81689.4,
+     0.55219
+    ]
+   ],
+   "asks": [
+    [
+     82680,
+     0.05357
+    ],
+    [
+     82688,
+     0.11421
+    ],
+    [
+     82689,
+     0.36342
+    ],
+    [
+     82700,
+     0.46831
+    ],
+    [
+     82800,
+     0.46236
+    ],
+    [
+     83000,
+     0.29555
+    ],
+    [
+     83200,
+     0.36641
+    ],
+    [
+     83299,
+     0.12004
+    ],
+    [
+     83451,
+     0.41678
+    ],
+    [
+     83880,
+     0.03535
+    ]
+   ],
+   "blockNumber": "28402381n",
+   "timestamp": 1792492122573,
+   "info": {
+    "bids": [
+     {
+      "price": "81696100000000000000000n",
+      "quantity": "1227000n"
+     },
+     {
+      "price": "81695600000000000000000n",
+      "quantity": "1227000n"
+     },
+     {
+      "price": "81695300000000000000000n",
+      "quantity": "1840000n"
+     },
+     {
+      "price": "81695200000000000000000n",
+      "quantity": "2454000n"
+     },
+     {
+      "price": "81695000000000000000000n",
+      "quantity": "3681000n"
+     },
+     {
+      "price": "81694700000000000000000n",
+      "quantity": "5521000n"
+     },
+     {
+      "price": "81691900000000000000000n",
+      "quantity": "8589000n"
+     },
+     {
+      "price": "81691400000000000000000n",
+      "quantity": "14725000n"
+     },
+     {
+      "price": "81690700000000000000000n",
+      "quantity": "28223000n"
+     },
+     {
+      "price": "81689400000000000000000n",
+      "quantity": "55219000n"
+     }
+    ],
+    "asks": [
+     {
+      "price": "82680000000000000000000n",
+      "quantity": "5357000n"
+     },
+     {
+      "price": "82688000000000000000000n",
+      "quantity": "11421000n"
+     },
+     {
+      "price": "82689000000000000000000n",
+      "quantity": "36342000n"
+     },
+     {
+      "price": "82700000000000000000000n",
+      "quantity": "46831000n"
+     },
+     {
+      "price": "82800000000000000000000n",
+      "quantity": "46236000n"
+     },
+     {
+      "price": "83000000000000000000000n",
+      "quantity": "29555000n"
+     },
+     {
+      "price": "83200000000000000000000n",
+      "quantity": "36641000n"
+     },
+     {
+      "price": "83299000000000000000000n",
+      "quantity": "12004000n"
+     },
+     {
+      "price": "83451000000000000000000n",
+      "quantity": "41678000n"
+     },
+     {
+      "price": "83880000000000000000000n",
+      "quantity": "3535000n"
+     }
+    ],
+    "blockNumber": "28402381n"
+   }
+  }
+ },
+ "fundingHistory limit 5": {
+  "ms": 183,
+  "ok": true,
+  "r": [
+   {
+    "symbol": "BTC/USDso:USDso",
+    "chainId": 50383,
+    "markPrice": 81598.7653440431,
+    "indexPrice": 81631.87637980717,
+    "fundingRate": 0.002470495579381732,
+    "fundingTimestamp": 1792476704000,
+    "timestamp": 1792476704000,
+    "datetime": "2026-10-20T06:11:44.000Z",
+    "info": {
+     "id": "0x4181dd08e73bbcdd1ba3e615a18f6abd941b94c0_28248349_51",
+     "pool": "0x4181dd08e73bbcdd1ba3e615a18f6abd941b94c0",
+     "fundingRate": "2470495579381732",
+     "cumulativeFundingPerUnit": "1949905924663142557798582906594821375000",
+     "indexPrice": "81631876379807170000000",
+     "markPrice": "81598765344043096000000",
+     "intervalsSettled": "1",
+     "intervalsAccrued": "1",
+     "fundingWindowSec": 28800,
+     "fundingIntervalSec": 3600,
+     "spanStart": "1792473103",
+     "spanEnd": "1792476703",
+     "anchorResynced": false,
+     "timestamp": "1792476704",
+     "blockNumber": "28248349",
+     "txHash": "0x54e30ad0ff39f4cfa3ec5d31f0078bcaa53fcc6685922b5ed6277ba9ce16bcfd"
+    }
+   },
+   {
+    "symbol": "BTC/USDso:USDso",
+    "chainId": 50383,
+    "markPrice": 81669.59180170264,
+    "indexPrice": 81701.64946003535,
+    "fundingRate": 0.002070911874213569,
+    "fundingTimestamp": 1792480304000,
+    "timestamp": 1792480304000,
+    "datetime": "2026-10-20T07:11:44.000Z",
+    "info": {
+     "id": "0x4181dd08e73bbcdd1ba3e615a18f6abd941b94c0_28284316_0",
+     "pool": "0x4181dd08e73bbcdd1ba3e615a18f6abd941b94c0",
+     "fundingRate": "2070911874213569",
+     "cumulativeFundingPerUnit": "1971055539164345286703821453887795937500",
+     "indexPrice": "81701649460035348500000",
+     "markPrice": "81669591801702648500000",
+     "intervalsSettled": "1",
+     "intervalsAccrued": "1",
+     "fundingWindowSec": 28800,
+     "fundingIntervalSec": 3600,
+     "spanStart": "1792476703",
+     "spanEnd": "1792480303",
+     "anchorResynced": false,
+     "timestamp": "1792480304",
+     "blockNumber": "28284316",
+     "txHash": "0xb142fd7ba72e4c662d9c6503f9d1ead5fb87ffa0fc8a61cebf78ca510c9445ae"
+    }
+   },
+   {
+    "symbol": "BTC/USDso:USDso",
+    "chainId": 50383,
+    "markPrice": 81317.04438015097,
+    "indexPrice": 81354.18834116645,
+    "fundingRate": 0.001766891057335065,
+    "fundingTimestamp": 1792483903000,
+    "timestamp": 1792483903000,
+    "datetime": "2026-10-20T08:11:43.000Z",
+    "info": {
+     "id": "0x4181dd08e73bbcdd1ba3e615a18f6abd941b94c0_28320268_37",
+     "pool": "0x4181dd08e73bbcdd1ba3e615a18f6abd941b94c0",
+     "fundingRate": "1766891057335065",
+     "cumulativeFundingPerUnit": "1989023537646440236641622248541419687500",
+     "indexPrice": "81354188341166446000000",
+     "markPrice": "81317044380150969500000",
+     "intervalsSettled": "1",
+     "intervalsAccrued": "1",
+     "fundingWindowSec": 28800,
+     "fundingIntervalSec": 3600,
+     "spanStart": "1792480303",
+     "spanEnd": "1792483903",
+     "anchorResynced": false,
+     "timestamp": "1792483903",
+     "blockNumber": "28320268",
+     "txHash": "0x5efcebe3814c4d22317631110f208881c1bb218cddaf19d275b66b3025abc0d8"
+    }
+   },
+   {
+    "symbol": "BTC/USDso:USDso",
+    "chainId": 50383,
+    "markPrice": 81296.7006649516,
+    "indexPrice": 81335.58350531581,
+    "fundingRate": 0.001670497723864424,
+    "fundingTimestamp": 1792487506000,
+    "timestamp": 1792487506000,
+    "datetime": "2026-10-20T09:11:46.000Z",
+    "info": {
+     "id": "0x4181dd08e73bbcdd1ba3e615a18f6abd941b94c0_28356274_13",
+     "pool": "0x4181dd08e73bbcdd1ba3e615a18f6abd941b94c0",
+     "fundingRate": "1670497723864424",
+     "cumulativeFundingPerUnit": "2006007401035792091568361423611031687500",
+     "indexPrice": "81335583505315804000000",
+     "markPrice": "81296700664951599500000",
+     "intervalsSettled": "1",
+     "intervalsAccrued": "1",
+     "fundingWindowSec": 28800,
+     "fundingIntervalSec": 3600,
+     "spanStart": "1792483903",
+     "spanEnd": "1792487503",
+     "anchorResynced": false,
+     "timestamp": "1792487506",
+     "blockNumber": "28356274",
+     "txHash": "0x51de63e149930de490489ec0975bd9bfe01a821a7f6fafaffedb38a38da49641"
+    }
+   },
+   {
+    "symbol": "BTC/USDso:USDso",
+    "chainId": 50383,
+    "markPrice": 81455.66510244687,
+    "indexPrice": 81490.25517250418,
+    "fundingRate": 0.001588124864067291,
+    "fundingTimestamp": 1792491103000,
+    "timestamp": 1792491103000,
+    "datetime": "2026-10-20T10:11:43.000Z",
+    "info": {
+     "id": "0x4181dd08e73bbcdd1ba3e615a18f6abd941b94c0_28392218_0",
+     "pool": "0x4181dd08e73bbcdd1ba3e615a18f6abd941b94c0",
+     "fundingRate": "1588124864067291",
+     "cumulativeFundingPerUnit": "2022184488588122351121633978054810000000",
+     "indexPrice": "81490255172504191500000",
+     "markPrice": "81455665102446876500000",
+     "intervalsSettled": "1",
+     "intervalsAccrued": "1",
+     "fundingWindowSec": 28800,
+     "fundingIntervalSec": 3600,
+     "spanStart": "1792487503",
+     "spanEnd": "1792491103",
+     "anchorResynced": false,
+     "timestamp": "1792491103",
+     "blockNumber": "28392218",
+     "txHash": "0x8eee0abf7f8634237001d6fa1f0da653d73d39cdc5589ac3eda6c10e36b43c33"
+    }
+   }
+  ]
+ },
+ "fundingHistory limit 0": {
+  "ms": 179,
+  "ok": true,
+  "r": []
+ },
+ "fundingHistory since future": {
+  "ms": 177,
+  "ok": true,
+  "r": []
+ },
+ "ohlcv 1h 3": {
+  "ms": 190,
+  "ok": true,
+  "r": [
+   [
+    1792483200000,
+    81618.2,
+    83444,
+    81409,
+    81575.8,
+    39.87077
+   ],
+   [
+    1792486800000,
+    81575.9,
+    83441,
+    81386,
+    81544.9,
+    6.47047
+   ],
+   [
+    1792490400000,
+    81547.3,
+    82799,
+    81547.3,
+    82680,
+    2.66256
+   ]
+  ]
+ },
+ "ohlcv bad tf": {
+  "ms": 0,
+  "ok": false,
+  "err": "@somnia-chain/markets-sdk: unknown timeframe 7m (have: 1m 5m 15m 1h 4h 1d)",
+  "cls": "InvalidInputError"
+ },
+ "trades 3": {
+  "ms": 365,
+  "ok": true,
+  "r": [
+   {
+    "id": "28402380_51",
+    "blockNumber": "28402380n",
+    "logIndex": 51,
+    "symbol": "BTC/USDso:USDso",
+    "chainId": 50383,
+    "price": 82680,
+    "amount": 0.01457,
+    "cost": 1204.6476,
+    "side": "buy",
+    "txHash": "0xe6d7e1b24788acd9dd9641ff96c2348994ca738c91c288b93a3285edd5952002",
+    "timestamp": 1792492120000,
+    "datetime": "2026-10-20T10:28:40.000Z",
+    "info": {
+     "blockNumber": "28402380",
+     "logIndex": 51,
+     "id": "28402380_51",
+     "market": "0x4181dd08e73bbcdd1ba3e615a18f6abd941b94c0",
+     "pool": "0x4181dd08e73bbcdd1ba3e615a18f6abd941b94c0",
+     "fillPrice": "82680000000000000000000",
+     "quantity": "1457000",
+     "quoteQuantity": "1204647600000000000000",
+     "maker": "0x1cf35c559bd4e1d45b738b83041855c8634e5a56",
+     "makerSide": null,
+     "taker": "0xe67780675e1e06de038273aa139efadc4db8eec6",
+     "takerSide": null,
+     "kind": null,
+     "takerIsBid": true,
+     "makerOrderId": "1936908127739509424204",
+     "takerOrderId": "8983564363896558141612",
+     "takerRemainingQuantity": "0",
+     "makerRemainingQuantity": "5357000",
+     "timestamp": "1792492120",
+     "txHash": "0xe6d7e1b24788acd9dd9641ff96c2348994ca738c91c288b93a3285edd5952002",
+     "takerOrder": {
+      "owner": "0xe67780675e1e06de038273aa139efadc4db8eec6",
+      "side": null
+     }
+    }
+   },
+   {
+    "id": "28402380_46",
+    "blockNumber": "28402380n",
+    "logIndex": 46,
+    "symbol": "BTC/USDso:USDso",
+    "chainId": 50383,
+    "price": 82500,
+    "amount": 0.20007,
+    "cost": 16505.775,
+    "side": "buy",
+    "txHash": "0xe6d7e1b24788acd9dd9641ff96c2348994ca738c91c288b93a3285edd5952002",
+    "timestamp": 1792492120000,
+    "datetime": "2026-10-20T10:28:40.000Z",
+    "info": {
+     "blockNumber": "28402380",
+     "logIndex": 46,
+     "id": "28402380_46",
+     "market": "0x4181dd08e73bbcdd1ba3e615a18f6abd941b94c0",
+     "pool": "0x4181dd08e73bbcdd1ba3e615a18f6abd941b94c0",
+     "fillPrice": "82500000000000000000000",
+     "quantity": "20007000",
+     "quoteQuantity": "16505775000000000000000",
+     "maker": "0x68f8f6227b18b44f0cd2d48b3051e36380e483ed",
+     "makerSide": null,
+     "taker": "0xe67780675e1e06de038273aa139efadc4db8eec6",
+     "takerSide": null,
+     "kind": null,
+     "takerIsBid": true,
+     "makerOrderId": "6788401819125121499263",
+     "takerOrderId": "8983564363896558141612",
+     "takerRemainingQuantity": "1457000",
+     "makerRemainingQuantity": "0",
+     "timestamp": "1792492120",
+     "txHash": "0xe6d7e1b24788acd9dd9641ff96c2348994ca738c91c288b93a3285edd5952002",
+     "takerOrder": {
+      "owner": "0xe67780675e1e06de038273aa139efadc4db8eec6",
+      "side": null
+     }
+    }
+   },
+   {
+    "id": "28402380_41",
+    "blockNumber": "28402380n",
+    "logIndex": 41,
+    "symbol": "BTC/USDso:USDso",
+    "chainId": 50383,
+    "price": 81696.2,
+    "amount": 0.00019,
+    "cost": 15.522278,
+    "side": "buy",
+    "txHash": "0xe6d7e1b24788acd9dd9641ff96c2348994ca738c91c288b93a3285edd5952002",
+    "timestamp": 1792492120000,
+    "datetime": "2026-10-20T10:28:40.000Z",
+    "info": {
+     "blockNumber": "28402380",
+     "logIndex": 41,
+     "id": "28402380_41",
+     "market": "0x4181dd08e73bbcdd1ba3e615a18f6abd941b94c0",
+     "pool": "0x4181dd08e73bbcdd1ba3e615a18f6abd941b94c0",
+     "fillPrice": "81696200000000000000000",
+     "quantity": "19000",
+     "quoteQuantity": "15522278000000000000",
+     "maker": "0x8239544db8718d75111e4aeedc42036742d22e68",
+     "makerSide": null,
+     "taker": "0xe67780675e1e06de038273aa139efadc4db8eec6",
+     "takerSide": null,
+     "kind": null,
+     "takerIsBid": true,
+     "makerOrderId": "9518519942034135138460",
+     "takerOrderId": "8983564363896558141612",
+     "takerRemainingQuantity": "21464000",
+     "makerRemainingQuantity": "0",
+     "timestamp": "1792492120",
+     "txHash": "0xe6d7e1b24788acd9dd9641ff96c2348994ca738c91c288b93a3285edd5952002",
+     "takerOrder": {
+      "owner": "0xe67780675e1e06de038273aa139efadc4db8eec6",
+      "side": null
+     }
+    }
+   }
+  ]
+ },
+ "positions zero addr": {
+  "ms": 0,
+  "ok": false,
+  "err": "@somnia-chain/markets-sdk: fetchPositions is authenticated — construct SomniaMarkets with a privateKey / account / walletClient",
+  "cls": "SignerRequiredError"
+ },
+ "clientKeys": [],
+ "listPerpMarkets": {
+  "ms": 183,
+  "ok": true,
+  "r": [
+   {
+    "id": "0x2a1822b02039ddf0e293f3f7243673fc03eaf16c",
+    "poolAddress": "0x2a1822b02039ddf0e293f3f7243673fc03eaf16c",
+    "lastPrice": "1900200000000000000",
+    "lastTradeAt": "1792491980",
+    "cumulativeBaseVolume": "434378300000000000000000",
+    "cumulativeQuoteVolume": "823949211410000000000000",
+    "tradeCount": "656",
+    "baseDecimals": 18,
+    "quoteDecimals": 18,
+    "createdAtTimestamp": "1791501074",
+    "createdAtBlock": "18501859",
+    "marketType": "PERP",
+    "baseToken": "0xcaacb7c35a41f4e188a54fb074daf4fa09538be0",
+    "quoteToken": "0xed7993a74dae1e6656b704a424dcd8711aaf4f72",
+    "baseSymbol": "ZRO",
+    "quoteSymbol": "USDso",
+    "baseIsNative": false,
+    "tickSize": "100000000000000",
+    "lotSize": "100000000000000000",
+    "minQuantity": "5100000000000000000",
+    "marginBank": "0x478769e1177c0773c43a593dccc4ad15f15f1394",
+    "initialMarginBps": 2000,
+    "stopRegistry": "0x1667a20a7481d704b1f75e8932d42a6bbafbd539",
+    "markPrice": "1902938100176000000",
+    "markPriceUpdatedAt": "1792490123",
+    "fundingRate": "100000000000000",
+    "cumulativeFundingPerUnit": "2640135968920200000000000000000000",
+    "indexPrice": "1902398098539000000",
+    "fundingUpdatedAt": "1792490123",
+    "fundingWindowSec": 28800,
+    "fundingIntervalSec": 3600,
+    "openInterest": "8801300000000000000000",
+    "openInterestUpdatedAt": "1792491980",
+    "chainId": 50383
+   },
+   {
+    "id": "0xdcb0ad226727b2ce92857f0af5751389d42b2a3f",
+    "poolAddress": "0xdcb0ad226727b2ce92857f0af5751389d42b2a3f",
+    "lastPrice": "3178500000000000000",
+    "lastTradeAt": "1792492031",
+    "cumulativeBaseVolume": "691732100000000000000000",
+    "cumulativeQuoteVolume": "2122952209590000000000000",
+    "tradeCount": "1793",
+    "baseDecimals": 18,
+    "quoteDecimals": 18,
+    "createdAtTimestamp": "1791500357",
+    "createdAtBlock": "18494694",
+    "marketType": "PERP",
+    "baseToken": "0xdd27064967cadba80f177bf692f6d2901cbf85f6",
+    "quoteToken": "0xed7993a74dae1e6656b704a424dcd8711aaf4f72",
+    "baseSymbol": "LIT",
+    "quoteSymbol": "USDso",
+    "baseIsNative": false,
+    "tickSize": "100000000000000",
+    "lotSize": "100000000000000000",
+    "minQuantity": "2800000000000000000",
+    "marginBank": "0x478769e1177c0773c43a593dccc4ad15f15f1394",
+    "initialMarginBps": 2000,
+    "stopRegistry": "0x6243c81d782ca091f47923e049a9ddc1070cb57a",
+    "markPrice": "3189191079194000000",
+    "markPriceUpdatedAt": "1792490121",
+    "fundingRate": "-476835858542425",
+    "cumulativeFundingPerUnit": "-12372999066724511692054765703875000",
+    "indexPrice": "3191563208917000000",
+    "fundingUpdatedAt": "1792490121",
+    "fundingWindowSec": 28800,
+    "fundingIntervalSec": 3600,
+    "openInterest": "2392600000000000000000",
+    "openInterestUpdatedAt": "1792492031",
+    "chainId": 50383
+   },
+   {
+    "id": "0x352636ab146039851ef06d6367a106d5fb4e6409",
+    "poolAddress": "0x352636ab146039851ef06d6367a106d5fb4e6409",
+    "lastPrice": "24103000000000000000",
+    "lastTradeAt": "1792491983",
+    "cumulativeBaseVolume": "65075530000000000000000",
+    "cumulativeQuoteVolume": "1558811533290000000000000",
+    "tradeCount": "1193",
+    "baseDecimals": 18,
+    "quoteDecimals": 18,
+    "createdAtTimestamp": "1791499654",
+    "createdAtBlock": "18487671",
+    "marketType": "PERP",
+    "baseToken": "0xe70769fa334c05277742531a27c774b93322c345",
+    "quoteToken": "0xed7993a74dae1e6656b704a424dcd8711aaf4f72",
+    "baseSymbol": "VVV",
+    "quoteSymbol": "USDso",
+    "baseIsNative": false,
+    "tickSize": "1000000000000000",
+    "lotSize": "10000000000000000",
+    "minQuantity": "440000000000000000",
+    "marginBank": "0x478769e1177c0773c43a593dccc4ad15f15f1394",
+    "initialMarginBps": 2000,
+    "stopRegistry": "0x6ba14290fc5067578020e649ad066df08915e5cf",
+    "markPrice": "24277624077909000000",
+    "markPriceUpdatedAt": "1792490122",
+    "fundingRate": "100000000000000",
+    "cumulativeFundingPerUnit": "31691721133149318712416045203000000",
+    "indexPrice": "24284116222415000000",
+    "fundingUpdatedAt": "1792490122",
+    "fundingWindowSec": 28800,
+    "fundingIntervalSec": 3600,
+    "openInterest": "151000000000000000000",
+    "openInterestUpdatedAt": "1792491983",
+    "chainId": 50383
+   },
+   {
+    "id": "0xfa9b9e50cc1745113d57893991af200a74c86b6f",
+    "poolAddress": "0xfa9b9e50cc1745113d57893991af200a74c86b6f",
+    "lastPrice": "4161100000000000",
+    "lastTradeAt": "1792491404",
+    "cumulativeBaseVolume": "237769900000000000000000000",
+    "cumulativeQuoteVolume": "962694719320000000000000",
+    "tradeCount": "671",
+    "baseDecimals": 18,
+    "quoteDecimals": 18,
+    "createdAtTimestamp": "1791498951",
+    "createdAtBlock": "18480646",
+    "marketType": "PERP",
+    "baseToken": "0x9f1f14bc9b603dccd13b33004ef08345941be1c0",
+    "quoteToken": "0xed7993a74dae1e6656b704a424dcd8711aaf4f72",
+    "baseSymbol": "1000PEPE",
+    "quoteSymbol": "USDso",
+    "baseIsNative": false,
+    "tickSize": "100000000000",
+    "lotSize": "100000000000000000000",
+    "minQuantity": "2700000000000000000000",
+    "marginBank": "0x478769e1177c0773c43a593dccc4ad15f15f1394",
+    "initialMarginBps": 2000,
+    "stopRegistry": "0x9942cd840dbbc0a51589027fef271dd9be836f08",
+    "markPrice": "4165035307000000",
+    "markPriceUpdatedAt": "1792490123",
+    "fundingRate": "100000000000000",
+    "cumulativeFundingPerUnit": "5421615912412500000000000000000",
+    "indexPrice": "4166458585000000",
+    "fundingUpdatedAt": "1792490123",
+    "fundingWindowSec": 28800,
+    "fundingIntervalSec": 3600,
+    "openInterest": "780300000000000000000000",
+    "openInterestUpdatedAt": "1792491404",
+    "chainId": 50383
+   },
+   {
+    "id": "0x76c981a52530cdf9497559140aafcd8cd16836e7",
+    "poolAddress": "0x76c981a52530cdf9497559140aafcd8cd16836e7",
+    "lastPrice": "4393000000000000",
+    "lastTradeAt": "1792491992",
+    "cumulativeBaseVolume": "298416300000000",
+    "cumulativeQuoteVolume": "1310075660300000000000000",
+    "tradeCount": "1006",
+    "baseDecimals": 6,
+    "quoteDecimals": 18,
+    "createdAtTimestamp": "1791497987",
+    "createdAtBlock": "18471008",
+    "marketType": "PERP",
+    "baseToken": "0x6c4a5181878abe585fd1ff4d1070fd95aea004eb",
+    "quoteToken": "0xed7993a74dae1e6656b704a424dcd8711aaf4f72",
+    "baseSymbol": "PUMP",
+    "quoteSymbol": "USDso",
+    "baseIsNative": false,
+    "tickSize": "1000000000000",
+    "lotSize": "100000000",
+    "minQuantity": "1800000000",
+    "marginBank": "0x478769e1177c0773c43a593dccc4ad15f15f1394",
+    "initialMarginBps": 2000,
+    "stopRegistry": "0xe09c7550c2ef41a6ddabe368cbde83c8ba5259b6",
+    "markPrice": "4406667932000000",
+    "markPriceUpdatedAt": "1792490125",
+    "fundingRate": "100000000000000",
+    "cumulativeFundingPerUnit": "6722122243462500000000000000000",
+    "indexPrice": "4409046827000000",
+    "fundingUpdatedAt": "1792490125",
+    "fundingWindowSec": 28800,
+    "fundingIntervalSec": 3600,
+    "openInterest": "3355700000000",
+    "openInterestUpdatedAt": "1792491992",
+    "chainId": 50383
+   },
+   {
+    "id": "0x2a73129f26917124bd2a47a9b355c395c537f050",
+    "poolAddress": "0x2a73129f26917124bd2a47a9b355c395c537f050",
+    "lastPrice": "1135857000000000000000",
+    "lastTradeAt": "1792492118",
+    "cumulativeBaseVolume": "1007299400000",
+    "cumulativeQuoteVolume": "11391667040593000000000000",
+    "tradeCount": "4462",
+    "baseDecimals": 8,
+    "quoteDecimals": 18,
+    "createdAtTimestamp": "1791492489",
+    "createdAtBlock": "18418178",
+    "marketType": "PERP",
+    "baseToken": "0xef2f5e45582c879637cd537345c0e3147fcdbc24",
+    "quoteToken": "0xed7993a74dae1e6656b704a424dcd8711aaf4f72",
+    "baseSymbol": "ZEC",
+    "quoteSymbol": "USDso",
+    "baseIsNative": false,
+    "tickSize": "1000000000000000",
+    "lotSize": "100000",
+    "minQuantity": "900000",
+    "marginBank": "0x478769e1177c0773c43a593dccc4ad15f15f1394",
+    "initialMarginBps": 2000,
+    "stopRegistry": "0xbfe6f500627a0344270c72a61c4f9f9f31db9a05",
+    "markPrice": "1130689765717001000000",
+    "markPriceUpdatedAt": "1792490121",
+    "fundingRate": "100000000000000",
+    "cumulativeFundingPerUnit": "1733711712219012932774234858858500000",
+    "indexPrice": "1130654158609830000000",
+    "fundingUpdatedAt": "1792490121",
+    "fundingWindowSec": 28800,
+    "fundingIntervalSec": 3600,
+    "openInterest": "6566400000",
+    "openInterestUpdatedAt": "1792492118",
+    "chainId": 50383
+   },
+   {
+    "id": "0xd9b6a347a3ae9fd6ba21179d3343f2c8a922f697",
+    "poolAddress": "0xd9b6a347a3ae9fd6ba21179d3343f2c8a922f697",
+    "lastPrice": "262357000000000000000",
+    "lastTradeAt": "1792491995",
+    "cumulativeBaseVolume": "12603780000000",
+    "cumulativeQuoteVolume": "3456269537875000000000000",
+    "tradeCount": "27299",
+    "baseDecimals": 9,
+    "quoteDecimals": 18,
+    "createdAtTimestamp": "1789666757",
+    "createdAtBlock": "203086",
+    "marketType": "PERP",
+    "baseToken": "0x2533113591243cd476930aea327eace664639b85",
+    "quoteToken": "0xed7993a74dae1e6656b704a424dcd8711aaf4f72",
+    "baseSymbol": "TAO",
+    "quoteSymbol": "USDso",
+    "baseIsNative": false,
+    "tickSize": "1000000000000000",
+    "lotSize": "1000000",
+    "minQuantity": "44000000",
+    "marginBank": "0x478769e1177c0773c43a593dccc4ad15f15f1394",
+    "initialMarginBps": 2000,
+    "stopRegistry": "0x450b968dc94e3a854c47e37f38e2f6af6e1650b7",
+    "markPrice": "262997757152175500000",
+    "markPriceUpdatedAt": "1792491282",
+    "fundingRate": "100000000000000",
+    "cumulativeFundingPerUnit": "2495766339690164103423966563420812500",
+    "indexPrice": "263027550557239000000",
+    "fundingUpdatedAt": "1792491282",
+    "fundingWindowSec": 28800,
+    "fundingIntervalSec": 3600,
+    "openInterest": "99403000000",
+    "openInterestUpdatedAt": "1792491995",
+    "chainId": 50383
+   },
+   {
+    "id": "0x0f464d57c1fd839e4d87a408bbccdab8f77e6394",
+    "poolAddress": "0x0f464d57c1fd839e4d87a408bbccdab8f77e6394",
+    "lastPrice": "530300000000000000",
+    "lastTradeAt": "1792492051",
+    "cumulativeBaseVolume": "13234250000000000000000000",
+    "cumulativeQuoteVolume": "6788629140600000000000000",
+    "tradeCount": "23549",
+    "baseDecimals": 18,
+    "quoteDecimals": 18,
+    "createdAtTimestamp": "1789666753",
+    "createdAtBlock": "203045",
+    "marketType": "PERP",
+    "baseToken": "0x3b5caa24d95c67337e79e7b77f7d65d06f823732",
+    "quoteToken": "0xed7993a74dae1e6656b704a424dcd8711aaf4f72",
+    "baseSymbol": "WLD",
+    "quoteSymbol": "USDso",
+    "baseIsNative": false,
+    "tickSize": "100000000000000",
+    "lotSize": "1000000000000000000",
+    "minQuantity": "26000000000000000000",
+    "marginBank": "0x478769e1177c0773c43a593dccc4ad15f15f1394",
+    "initialMarginBps": 2000,
+    "stopRegistry": "0x092ba74067cdd5400f38f8b4e91b1a4cf8f7716d",
+    "markPrice": "533598141711500000",
+    "markPriceUpdatedAt": "1792491282",
+    "fundingRate": "100000000000000",
+    "cumulativeFundingPerUnit": "9772738586581636868114978325375000",
+    "indexPrice": "533873004067500000",
+    "fundingUpdatedAt": "1792491282",
+    "fundingWindowSec": 28800,
+    "fundingIntervalSec": 3600,
+    "openInterest": "84118000000000000000000",
+    "openInterestUpdatedAt": "1792492051",
+    "chainId": 50383
+   },
+   {
+    "id": "0x1cd15ae8bff0fe0a7f49233be8b90734775ba454",
+    "poolAddress": "0x1cd15ae8bff0fe0a7f49233be8b90734775ba454",
+    "lastPrice": "4687500000000000000",
+    "lastTradeAt": "1792492112",
+    "cumulativeBaseVolume": "12360955500000000000000000000000",
+    "cumulativeQuoteVolume": "61786727973830000000000000",
+    "tradeCount": "43691",
+    "baseDecimals": 24,
+    "quoteDecimals": 18,
+    "createdAtTimestamp": "1789666749",
+    "createdAtBlock": "203004",
+    "marketType": "PERP",
+    "baseToken": "0xc772e0e3331bae405824038996cecce9a2206cf3",
+    "quoteToken": "0xed7993a74dae1e6656b704a424dcd8711aaf4f72",
+    "baseSymbol": "NEAR",
+    "quoteSymbol": "USDso",
+    "baseIsNative": false,
+    "tickSize": "100000000000000",
+    "lotSize": "100000000000000000000000",
+    "minQuantity": "5100000000000000000000000",
+    "marginBank": "0x478769e1177c0773c43a593dccc4ad15f15f1394",
+    "initialMarginBps": 1000,
+    "stopRegistry": "0xf3a51c26ead3f84c2221336484bb42b8cfca076e",
+    "markPrice": "4685884789313000000",
+    "markPriceUpdatedAt": "1792491282",
+    "fundingRate": "100000000000000",
+    "cumulativeFundingPerUnit": "76920956196594694406478986299312500",
+    "indexPrice": "4687504054937000000",
+    "fundingUpdatedAt": "1792491282",
+    "fundingWindowSec": 28800,
+    "fundingIntervalSec": 3600,
+    "openInterest": "405075500000000000000000000000",
+    "openInterestUpdatedAt": "1792492112",
+    "chainId": 50383
+   },
+   {
+    "id": "0x74b05b9b8c8f180b53b7891018f3b254b3e658c9",
+    "poolAddress": "0x74b05b9b8c8f180b53b7891018f3b254b3e658c9",
+    "lastPrice": "176100000000000000",
+    "lastTradeAt": "1792486841",
+    "cumulativeBaseVolume": "97526320000000",
+    "cumulativeQuoteVolume": "1843615297600000000000000",
+    "tradeCount": "18084",
+    "baseDecimals": 7,
+    "quoteDecimals": 18,
+    "createdAtTimestamp": "1789666745",
+    "createdAtBlock": "202963",
+    "marketType": "PERP",
+    "baseToken": "0xbcded4e7b8c4eb0a01f632e2c283ca3c8a9a141a",
+    "quoteToken": "0xed7993a74dae1e6656b704a424dcd8711aaf4f72",
+    "baseSymbol": "XLM",
+    "quoteSymbol": "USDso",
+    "baseIsNative": false,
+    "tickSize": "100000000000000",
+    "lotSize": "10000000",
+    "minQuantity": "540000000",
+    "marginBank": "0x478769e1177c0773c43a593dccc4ad15f15f1394",
+    "initialMarginBps": 1000,
+    "stopRegistry": "0xa1b615be784784420f7dd7ef4a2a5a392bdb7242",
+    "markPrice": "175477540055500000",
+    "markPriceUpdatedAt": "1792491282",
+    "fundingRate": "100000000000000",
+    "cumulativeFundingPerUnit": "1511756159570500000000000000000000",
+    "indexPrice": "175544865176000000",
+    "fundingUpdatedAt": "1792491282",
+    "fundingWindowSec": 28800,
+    "fundingIntervalSec": 3600,
+    "openInterest": "2618180000000",
+    "openInterestUpdatedAt": "1792486841",
+    "chainId": 50383
+   },
+   {
+    "id": "0xde9762b6b441133d1314c68864ae4e63a6ee45c7",
+    "poolAddress": "0xde9762b6b441133d1314c68864ae4e63a6ee45c7",
+    "lastPrice": "9412000000000000000",
+    "lastTradeAt": "1792491595",
+    "cumulativeBaseVolume": "495689400000000000000000",
+    "cumulativeQuoteVolume": "5004247184400000000000000",
+    "tradeCount": "23757",
+    "baseDecimals": 18,
+    "quoteDecimals": 18,
+    "createdAtTimestamp": "1789666741",
+    "createdAtBlock": "202922",
+    "marketType": "PERP",
+    "baseToken": "0x771ada7eeb4ba277cd3e5f184baf71e59c78cc65",
+    "quoteToken": "0xed7993a74dae1e6656b704a424dcd8711aaf4f72",
+    "baseSymbol": "AVAX",
+    "quoteSymbol": "USDso",
+    "baseIsNative": false,
+    "tickSize": "1000000000000000",
+    "lotSize": "100000000000000000",
+    "minQuantity": "1400000000000000000",
+    "marginBank": "0x478769e1177c0773c43a593dccc4ad15f15f1394",
+    "initialMarginBps": 1000,
+    "stopRegistry": "0xc33db2dab35c46295cb435730f14f91a3cfd0367",
+    "markPrice": "9409200208606500000",
+    "markPriceUpdatedAt": "1792491283",
+    "fundingRate": "100000000000000",
+    "cumulativeFundingPerUnit": "77177537117171581250000000000000000",
+    "indexPrice": "9415643375851500000",
+    "fundingUpdatedAt": "1792491283",
+    "fundingWindowSec": 28800,
+    "fundingIntervalSec": 3600,
+    "openInterest": "9010500000000000000000",
+    "openInterestUpdatedAt": "1792491595",
+    "chainId": 50383
+   },
+   {
+    "id": "0xf71b619450bafe953f47b9b556416a3a67b443b5",
+    "poolAddress": "0xf71b619450bafe953f47b9b556416a3a67b443b5",
+    "lastPrice": "11915000000000000000",
+    "lastTradeAt": "1792490921",
+    "cumulativeBaseVolume": "365406400000000000000000",
+    "cumulativeQuoteVolume": "4576659715500000000000000",
+    "tradeCount": "23488",
+    "baseDecimals": 18,
+    "quoteDecimals": 18,
+    "createdAtTimestamp": "1789666737",
+    "createdAtBlock": "202882",
+    "marketType": "PERP",
+    "baseToken": "0xb2221107e55a53409cef0e83ed1b29c8879d0f72",
+    "quoteToken": "0xed7993a74dae1e6656b704a424dcd8711aaf4f72",
+    "baseSymbol": "LINK",
+    "quoteSymbol": "USDso",
+    "baseIsNative": false,
+    "tickSize": "1000000000000000",
+    "lotSize": "100000000000000000",
+    "minQuantity": "900000000000000000",
+    "marginBank": "0x478769e1177c0773c43a593dccc4ad15f15f1394",
+    "initialMarginBps": 1000,
+    "stopRegistry": "0x1c3fabc41871ec838960f80329dcd920fec241c9",
+    "markPrice": "11922421740242000000",
+    "markPriceUpdatedAt": "1792491282",
+    "fundingRate": "100000000000000",
+    "cumulativeFundingPerUnit": "98361323373217087500000000000000000",
+    "indexPrice": "11928081807383000000",
+    "fundingUpdatedAt": "1792491282",
+    "fundingWindowSec": 28800,
+    "fundingIntervalSec": 3600,
+    "openInterest": "3293800000000000000000",
+    "openInterestUpdatedAt": "1792490921",
+    "chainId": 50383
+   },
+   {
+    "id": "0x1be21287cfb865a7c462ff3c4f275e70bcccefe4",
+    "poolAddress": "0x1be21287cfb865a7c462ff3c4f275e70bcccefe4",
+    "lastPrice": "986400000000000000",
+    "lastTradeAt": "1792491995",
+    "cumulativeBaseVolume": "7896069000000000",
+    "cumulativeQuoteVolume": "8085299584600000000000000",
+    "tradeCount": "28087",
+    "baseDecimals": 9,
+    "quoteDecimals": 18,
+    "createdAtTimestamp": "1789666733",
+    "createdAtBlock": "202840",
+    "marketType": "PERP",
+    "baseToken": "0x3b2b65c0224343522b17e960282952470f643830",
+    "quoteToken": "0xed7993a74dae1e6656b704a424dcd8711aaf4f72",
+    "baseSymbol": "SUI",
+    "quoteSymbol": "USDso",
+    "baseIsNative": false,
+    "tickSize": "100000000000000",
+    "lotSize": "1000000000",
+    "minQuantity": "13000000000",
+    "marginBank": "0x478769e1177c0773c43a593dccc4ad15f15f1394",
+    "initialMarginBps": 1000,
+    "stopRegistry": "0xfdcfb2f985049cad3ac27472b6ae80c7a53ede89",
+    "markPrice": "988544519949500000",
+    "markPriceUpdatedAt": "1792491283",
+    "fundingRate": "100000000000000",
+    "cumulativeFundingPerUnit": "8578731102327936237913088952000000",
+    "indexPrice": "989144152899000000",
+    "fundingUpdatedAt": "1792491283",
+    "fundingWindowSec": 28800,
+    "fundingIntervalSec": 3600,
+    "openInterest": "196223000000000",
+    "openInterestUpdatedAt": "1792491995",
+    "chainId": 50383
+   },
+   {
+    "id": "0x34fa62909f77699a7a6278d992f72ff31c7a619d",
+    "poolAddress": "0x34fa62909f77699a7a6278d992f72ff31c7a619d",
+    "lastPrice": "215700000000000000",
+    "lastTradeAt": "1792492091",
+    "cumulativeBaseVolume": "16133326000000",
+    "cumulativeQuoteVolume": "3757137120000000000000000",
+    "tradeCount": "21366",
+    "baseDecimals": 6,
+    "quoteDecimals": 18,
+    "createdAtTimestamp": "1789666729",
+    "createdAtBlock": "202798",
+    "marketType": "PERP",
+    "baseToken": "0xb987a674df44e929e5e7a0c1157da9ad669447e0",
+    "quoteToken": "0xed7993a74dae1e6656b704a424dcd8711aaf4f72",
+    "baseSymbol": "ADA",
+    "quoteSymbol": "USDso",
+    "baseIsNative": false,
+    "tickSize": "100000000000000",
+    "lotSize": "1000000",
+    "minQuantity": "46000000",
+    "marginBank": "0x478769e1177c0773c43a593dccc4ad15f15f1394",
+    "initialMarginBps": 1000,
+    "stopRegistry": "0x3a76c35c1cc0a0dbde646ce51a30805b077d211b",
+    "markPrice": "215386152025000000",
+    "markPriceUpdatedAt": "1792491351",
+    "fundingRate": "100000000000000",
+    "cumulativeFundingPerUnit": "1796582412395106250000000000000000",
+    "indexPrice": "215556019609000000",
+    "fundingUpdatedAt": "1792491351",
+    "fundingWindowSec": 28800,
+    "fundingIntervalSec": 3600,
+    "openInterest": "161373000000",
+    "openInterestUpdatedAt": "1792492091",
+    "chainId": 50383
+   },
+   {
+    "id": "0x3d2a99fe1e2bdeaa25024515a2d2202daf9531ad",
+    "poolAddress": "0x3d2a99fe1e2bdeaa25024515a2d2202daf9531ad",
+    "lastPrice": "728620000000000000000",
+    "lastTradeAt": "1792492076",
+    "cumulativeBaseVolume": "14994478000000000000000",
+    "cumulativeQuoteVolume": "10944535641456000000000000",
+    "tradeCount": "35450",
+    "baseDecimals": 18,
+    "quoteDecimals": 18,
+    "createdAtTimestamp": "1789666725",
+    "createdAtBlock": "202758",
+    "marketType": "PERP",
+    "baseToken": "0x667954b7eb08f608f5454b91bfd98c2c78a3aca8",
+    "quoteToken": "0xed7993a74dae1e6656b704a424dcd8711aaf4f72",
+    "baseSymbol": "BNB",
+    "quoteSymbol": "USDso",
+    "baseIsNative": false,
+    "tickSize": "1000000000000000",
+    "lotSize": "1000000000000000",
+    "minQuantity": "14000000000000000",
+    "marginBank": "0x478769e1177c0773c43a593dccc4ad15f15f1394",
+    "initialMarginBps": 1000,
+    "stopRegistry": "0x487fd1e8bcedf4334a2e83aa86b426fd70e4e921",
+    "markPrice": "728470322125125500000",
+    "markPriceUpdatedAt": "1792491283",
+    "fundingRate": "100000000000000",
+    "cumulativeFundingPerUnit": "6853636962447852180360214377268937500",
+    "indexPrice": "728375144717482500000",
+    "fundingUpdatedAt": "1792491283",
+    "fundingWindowSec": 28800,
+    "fundingIntervalSec": 3600,
+    "openInterest": "213174000000000000000",
+    "openInterestUpdatedAt": "1792492076",
+    "chainId": 50383
+   },
+   {
+    "id": "0xc410012e39765cd5f772e84bacb19554aec040df",
+    "poolAddress": "0xc410012e39765cd5f772e84bacb19554aec040df",
+    "lastPrice": "78960000000000000",
+    "lastTradeAt": "1792490706",
+    "cumulativeBaseVolume": "12749035000000000",
+    "cumulativeQuoteVolume": "10517578997400000000000000",
+    "tradeCount": "31527",
+    "baseDecimals": 8,
+    "quoteDecimals": 18,
+    "createdAtTimestamp": "1789666720",
+    "createdAtBlock": "202717",
+    "marketType": "PERP",
+    "baseToken": "0x683e4fb09e078b6e4ef914cc64f68103ae2cff54",
+    "quoteToken": "0xed7993a74dae1e6656b704a424dcd8711aaf4f72",
+    "baseSymbol": "DOGE",
+    "quoteSymbol": "USDso",
+    "baseIsNative": false,
+    "tickSize": "10000000000000",
+    "lotSize": "1000000000",
+    "minQuantity": "12000000000",
+    "marginBank": "0x478769e1177c0773c43a593dccc4ad15f15f1394",
+    "initialMarginBps": 1000,
+    "stopRegistry": "0xb09cf2f2f91045f1ff1e4e824f9cf0fa29698757",
+    "markPrice": "78951644182000000",
+    "markPriceUpdatedAt": "1792491283",
+    "fundingRate": "100000000000000",
+    "cumulativeFundingPerUnit": "671262099912224364352004235375000",
+    "indexPrice": "79001607477000000",
+    "fundingUpdatedAt": "1792491283",
+    "fundingWindowSec": 28800,
+    "fundingIntervalSec": 3600,
+    "openInterest": "187974000000000",
+    "openInterestUpdatedAt": "1792490706",
+    "chainId": 50383
+   },
+   {
+    "id": "0x7058579f3248559963f79adb937c6de9f953e060",
+    "poolAddress": "0x7058579f3248559963f79adb937c6de9f953e060",
+    "lastPrice": "1291900000000000000",
+    "lastTradeAt": "1792492118",
+    "cumulativeBaseVolume": "19135214300000",
+    "cumulativeQuoteVolume": "25482825114420000000000000",
+    "tradeCount": "38601",
+    "baseDecimals": 6,
+    "quoteDecimals": 18,
+    "createdAtTimestamp": "1789666716",
+    "createdAtBlock": "202676",
+    "marketType": "PERP",
+    "baseToken": "0xe4ddba6c087ba15298ece0939f6d69a5d5542fad",
+    "quoteToken": "0xed7993a74dae1e6656b704a424dcd8711aaf4f72",
+    "baseSymbol": "XRP",
+    "quoteSymbol": "USDso",
+    "baseIsNative": false,
+    "tickSize": "100000000000000",
+    "lotSize": "100000",
+    "minQuantity": "6900000",
+    "marginBank": "0x478769e1177c0773c43a593dccc4ad15f15f1394",
+    "initialMarginBps": 500,
+    "stopRegistry": "0x655e89a7e52490a421ad4c04fb6a7dd295cf1a5f",
+    "markPrice": "1293557691349000000",
+    "markPriceUpdatedAt": "1792491282",
+    "fundingRate": "100000000000000",
+    "cumulativeFundingPerUnit": "8907171251331426267951974950062500",
+    "indexPrice": "1294257263123500000",
+    "fundingUpdatedAt": "1792491282",
+    "fundingWindowSec": 28800,
+    "fundingIntervalSec": 3600,
+    "openInterest": "458512700000",
+    "openInterestUpdatedAt": "1792492118",
+    "chainId": 50383
+   },
+   {
+    "id": "0x63b47ed4a7de0fde659b0d82441dd74828b7297a",
+    "poolAddress": "0x63b47ed4a7de0fde659b0d82441dd74828b7297a",
+    "lastPrice": "78340000000000000000",
+    "lastTradeAt": "1792492115",
+    "cumulativeBaseVolume": "961998400000",
+    "cumulativeQuoteVolume": "76941894788400000000000000",
+    "tradeCount": "69988",
+    "baseDecimals": 6,
+    "quoteDecimals": 18,
+    "createdAtTimestamp": "1789666712",
+    "createdAtBlock": "202634",
+    "marketType": "PERP",
+    "baseToken": "0x32d7d9b4e07fe76382dbd9f3c7bee3b513505b87",
+    "quoteToken": "0xed7993a74dae1e6656b704a424dcd8711aaf4f72",
+    "baseSymbol": "HYPE",
+    "quoteSymbol": "USDso",
+    "baseIsNative": false,
+    "tickSize": "10000000000000000",
+    "lotSize": "10000",
+    "minQuantity": "120000",
+    "marginBank": "0x478769e1177c0773c43a593dccc4ad15f15f1394",
+    "initialMarginBps": 500,
+    "stopRegistry": "0x44c24cd26cf41037c6ebf337948a6c9bbc0ee055",
+    "markPrice": "78359010226713500000",
+    "markPriceUpdatedAt": "1792491282",
+    "fundingRate": "100000000000000",
+    "cumulativeFundingPerUnit": "612755419460474578192779239085187500",
+    "indexPrice": "78378871703514500000",
+    "fundingUpdatedAt": "1792491282",
+    "fundingWindowSec": 28800,
+    "fundingIntervalSec": 3600,
+    "openInterest": "16542880000",
+    "openInterestUpdatedAt": "1792492115",
+    "chainId": 50383
+   },
+   {
+    "id": "0xb483ec1fb34996638677c20ab087b16f1896fa53",
+    "poolAddress": "0xb483ec1fb34996638677c20ab087b16f1896fa53",
+    "lastPrice": "104010000000000000000",
+    "lastTradeAt": "1792492115",
+    "cumulativeBaseVolume": "1049174960000000",
+    "cumulativeQuoteVolume": "110263209849100000000000000",
+    "tradeCount": "101301",
+    "baseDecimals": 9,
+    "quoteDecimals": 18,
+    "createdAtTimestamp": "1789666708",
+    "createdAtBlock": "202593",
+    "marketType": "PERP",
+    "baseToken": "0x83b066da8e10839f3683c0b46943357b2cbf629e",
+    "quoteToken": "0xed7993a74dae1e6656b704a424dcd8711aaf4f72",
+    "baseSymbol": "SOL",
+    "quoteSymbol": "USDso",
+    "baseIsNative": false,
+    "tickSize": "10000000000000000",
+    "lotSize": "10000000",
+    "minQuantity": "100000000",
+    "marginBank": "0x478769e1177c0773c43a593dccc4ad15f15f1394",
+    "initialMarginBps": 500,
+    "stopRegistry": "0x85a0879d19777c343eb317a890d5058ab92b8f5d",
+    "markPrice": "103757490641485000000",
+    "markPriceUpdatedAt": "1792490053",
+    "fundingRate": "100000000000000",
+    "cumulativeFundingPerUnit": "806798304508701312325368527973312500",
+    "indexPrice": "103808442208176000000",
+    "fundingUpdatedAt": "1792490053",
+    "fundingWindowSec": 28800,
+    "fundingIntervalSec": 3600,
+    "openInterest": "16450540000000",
+    "openInterestUpdatedAt": "1792492115",
+    "chainId": 50383
+   },
+   {
+    "id": "0xd6cb1dd58580b84d76068ac21594219ce03aeddf",
+    "poolAddress": "0xd6cb1dd58580b84d76068ac21594219ce03aeddf",
+    "lastPrice": "2386720000000000000000",
+    "lastTradeAt": "1792492114",
+    "cumulativeBaseVolume": "128051551900000000000000",
+    "cumulativeQuoteVolume": "311010277037423000000000000",
+    "tradeCount": "156841",
+    "baseDecimals": 18,
+    "quoteDecimals": 18,
+    "createdAtTimestamp": "1789666704",
+    "createdAtBlock": "202552",
+    "marketType": "PERP",
+    "baseToken": "0x1516ccebca301d0651bc27dcdf9b1c2f18c3b4cd",
+    "quoteToken": "0xed7993a74dae1e6656b704a424dcd8711aaf4f72",
+    "baseSymbol": "ETH",
+    "quoteSymbol": "USDso",
+    "baseIsNative": false,
+    "tickSize": "10000000000000000",
+    "lotSize": "100000000000000",
+    "minQuantity": "4000000000000000",
+    "marginBank": "0x478769e1177c0773c43a593dccc4ad15f15f1394",
+    "initialMarginBps": 500,
+    "stopRegistry": "0x44bfa5b28684e8d2156d15b85902da18f02b3a34",
+    "markPrice": "2384533909210923000000",
+    "markPriceUpdatedAt": "1792491559",
+    "fundingRate": "100000000000000",
+    "cumulativeFundingPerUnit": "18561913386990222744641379575151312500",
+    "indexPrice": "2385810617385899000000",
+    "fundingUpdatedAt": "1792491559",
+    "fundingWindowSec": 28800,
+    "fundingIntervalSec": 3600,
+    "openInterest": "984643800000000000000",
+    "openInterestUpdatedAt": "1792492114",
+    "chainId": 50383
+   },
+   {
+    "id": "0x4181dd08e73bbcdd1ba3e615a18f6abd941b94c0",
+    "poolAddress": "0x4181dd08e73bbcdd1ba3e615a18f6abd941b94c0",
+    "lastPrice": "82680000000000000000000",
+    "lastTradeAt": "1792492120",
+    "cumulativeBaseVolume": "458014851000",
+    "cumulativeQuoteVolume": "375888641619055000000000000",
+    "tradeCount": "366730",
+    "baseDecimals": 8,
+    "quoteDecimals": 18,
+    "createdAtTimestamp": "1789666700",
+    "createdAtBlock": "202512",
+    "marketType": "PERP",
+    "baseToken": "0xa77fa353dac50de5c15676ac910c221a4d2bd6b5",
+    "quoteToken": "0xed7993a74dae1e6656b704a424dcd8711aaf4f72",
+    "baseSymbol": "BTC",
+    "quoteSymbol": "USDso",
+    "baseIsNative": false,
+    "tickSize": "100000000000000000",
+    "lotSize": "1000",
+    "minQuantity": "13000",
+    "marginBank": "0x478769e1177c0773c43a593dccc4ad15f15f1394",
+    "initialMarginBps": 500,
+    "stopRegistry": "0x52e2ccebaec9332672c247e9a90aa3d61fb615ef",
+    "markPrice": "81455665102446876500000",
+    "markPriceUpdatedAt": "1792491103",
+    "fundingRate": "1588124864067291",
+    "cumulativeFundingPerUnit": "2022184488588122351121633978054810000000",
+    "indexPrice": "81490255172504191500000",
+    "fundingUpdatedAt": "1792491103",
+    "fundingWindowSec": 28800,
+    "fundingIntervalSec": 3600,
+    "openInterest": "28615958000",
+    "openInterestUpdatedAt": "1792492120",
+    "chainId": 50383
+   }
+  ]
+ },
+ "sys": {
+  "marginBank": "0x478769E1177C0773c43A593DCCc4Ad15F15F1394",
+  "collateralToken": "0xed7993A74dAe1e6656B704A424DcD8711aAf4F72",
+  "perpPoolFactory": "0xE631fAEE547baeE07353E290f0562ea67d856560",
+  "liquidationEngine": "0xA66d3C24Ad4a389d863846905D8173e1017e9F4D",
+  "insuranceFund": "0x50826894D47C6D4f3BeA38BFDC7Dc5c5be171b80",
+  "feeRecipient": "0xd58596620Ee6951B2958a931949e4ff7ce6222be",
+  "maxLeverageLimit": 20,
+  "fullyWired": true
+ },
+ "listPerpPoolStatuses": {
+  "ms": 2194,
+  "ok": true,
+  "r": [
+   {
+    "pool": "0x4181dd08E73BbCdd1Ba3E615A18f6abD941b94C0",
+    "baseToken": "0xa77fA353dAC50DE5c15676AC910C221A4d2Bd6b5",
+    "restricted": false,
+    "marginBank": "0x478769E1177C0773c43A593DCCc4Ad15F15F1394",
+    "registered": true,
+    "tradeable": true
+   },
+   {
+    "pool": "0xD6Cb1DD58580B84D76068aC21594219ce03aeddf",
+    "baseToken": "0x1516CcebcA301d0651bc27dCDF9b1c2f18C3b4cd",
+    "restricted": false,
+    "marginBank": "0x478769E1177C0773c43A593DCCc4Ad15F15F1394",
+    "registered": true,
+    "tradeable": true
+   },
+   {
+    "pool": "0xB483ec1fb34996638677c20ab087b16F1896FA53",
+    "baseToken": "0x83B066da8e10839f3683C0b46943357B2cBf629E",
+    "restricted": false,
+    "marginBank": "0x478769E1177C0773c43A593DCCc4Ad15F15F1394",
+    "registered": true,
+    "tradeable": true
+   },
+   {
+    "pool": "0x63B47eD4A7DE0FdE659b0d82441dD74828b7297A",
+    "baseToken": "0x32d7D9B4e07fE76382Dbd9f3C7BeE3b513505B87",
+    "restricted": false,
+    "marginBank": "0x478769E1177C0773c43A593DCCc4Ad15F15F1394",
+    "registered": true,
+    "tradeable": true
+   },
+   {
+    "pool": "0x7058579F3248559963f79AdB937c6De9f953E060",
+    "baseToken": "0xE4DDba6C087Ba15298eCe0939F6D69A5d5542FAd",
+    "restricted": false,
+    "marginBank": "0x478769E1177C0773c43A593DCCc4Ad15F15F1394",
+    "registered": true,
+    "tradeable": true
+   },
+   {
+    "pool": "0xC410012e39765Cd5f772e84BAcB19554AEC040Df",
+    "baseToken": "0x683e4fb09e078B6E4eF914cC64f68103Ae2CFF54",
+    "restricted": false,
+    "marginBank": "0x478769E1177C0773c43A593DCCc4Ad15F15F1394",
+    "registered": true,
+    "tradeable": true
+   },
+   {
+    "pool": "0x3D2A99fE1e2BdEaA25024515A2D2202DAF9531aD",
+    "baseToken": "0x667954B7eB08f608f5454b91bFD98c2C78A3Aca8",
+    "restricted": false,
+    "marginBank": "0x478769E1177C0773c43A593DCCc4Ad15F15F1394",
+    "registered": true,
+    "tradeable": true
+   },
+   {
+    "pool": "0x34fa62909f77699a7a6278D992F72Ff31c7a619D",
+    "baseToken": "0xB987a674df44E929e5E7a0c1157da9Ad669447e0",
+    "restricted": false,
+    "marginBank": "0x478769E1177C0773c43A593DCCc4Ad15F15F1394",
+    "registered": true,
+    "tradeable": true
+   },
+   {
+    "pool": "0x1Be21287cfB865a7c462Ff3c4f275E70BcccefE4",
+    "baseToken": "0x3b2b65C0224343522B17E960282952470F643830",
+    "restricted": false,
+    "marginBank": "0x478769E1177C0773c43A593DCCc4Ad15F15F1394",
+    "registered": true,
+    "tradeable": true
+   },
+   {
+    "pool": "0xf71b619450baFe953F47b9b556416A3A67b443b5",
+    "baseToken": "0xB2221107e55a53409cef0E83ED1b29c8879D0f72",
+    "restricted": false,
+    "marginBank": "0x478769E1177C0773c43A593DCCc4Ad15F15F1394",
+    "registered": true,
+    "tradeable": true
+   },
+   {
+    "pool": "0xde9762B6b441133D1314C68864ae4e63A6eE45C7",
+    "baseToken": "0x771ADa7EEb4ba277cD3e5f184baf71E59C78cc65",
+    "restricted": false,
+    "marginBank": "0x478769E1177C0773c43A593DCCc4Ad15F15F1394",
+    "registered": true,
+    "tradeable": true
+   },
+   {
+    "pool": "0x74b05B9B8c8F180b53b7891018F3B254B3E658C9",
+    "baseToken": "0xbCdED4e7B8C4EB0A01f632e2C283ca3C8A9a141a",
+    "restricted": false,
+    "marginBank": "0x478769E1177C0773c43A593DCCc4Ad15F15F1394",
+    "registered": true,
+    "tradeable": true
+   },
+   {
+    "pool": "0x1cD15ae8bFf0FE0a7F49233BE8b90734775bA454",
+    "baseToken": "0xC772E0E3331bae405824038996CEcce9a2206cf3",
+    "restricted": false,
+    "marginBank": "0x478769E1177C0773c43A593DCCc4Ad15F15F1394",
+    "registered": true,
+    "tradeable": true
+   },
+   {
+    "pool": "0x0F464d57c1FD839E4d87A408BBcCDAb8f77E6394",
+    "baseToken": "0x3B5caa24D95C67337e79E7B77F7d65d06f823732",
+    "restricted": false,
+    "marginBank": "0x478769E1177C0773c43A593DCCc4Ad15F15F1394",
+    "registered": true,
+    "tradeable": true
+   },
+   {
+    "pool": "0xD9b6A347A3Ae9FD6BA21179D3343F2c8A922F697",
+    "baseToken": "0x2533113591243cD476930aEA327Eace664639b85",
+    "restricted": false,
+    "marginBank": "0x478769E1177C0773c43A593DCCc4Ad15F15F1394",
+    "registered": true,
+    "tradeable": true
+   },
+   {
+    "pool": "0x2a73129F26917124bd2A47a9B355C395C537F050",
+    "baseToken": "0xef2F5E45582C879637cD537345c0e3147FCdBc24",
+    "restricted": false,
+    "marginBank": "0x478769E1177C0773c43A593DCCc4Ad15F15F1394",
+    "registered": true,
+    "tradeable": true
+   },
+   {
+    "pool": "0x76c981a52530cdF9497559140aAfCd8CD16836E7",
+    "baseToken": "0x6c4a5181878ABE585Fd1Ff4D1070FD95AeA004Eb",
+    "restricted": false,
+    "marginBank": "0x478769E1177C0773c43A593DCCc4Ad15F15F1394",
+    "registered": true,
+    "tradeable": true
+   },
+   {
+    "pool": "0xfA9B9e50CC1745113d57893991aF200a74c86B6f",
+    "baseToken": "0x9f1f14Bc9B603dCcd13B33004ef08345941Be1c0",
+    "restricted": false,
+    "marginBank": "0x478769E1177C0773c43A593DCCc4Ad15F15F1394",
+    "registered": true,
+    "tradeable": true
+   },
+   {
+    "pool": "0x352636aB146039851Ef06D6367A106d5FB4E6409",
+    "baseToken": "0xe70769Fa334C05277742531A27c774B93322c345",
+    "restricted": false,
+    "marginBank": "0x478769E1177C0773c43A593DCCc4Ad15F15F1394",
+    "registered": true,
+    "tradeable": true
+   },
+   {
+    "pool": "0xDCb0Ad226727b2cE92857F0aF5751389d42B2A3f",
+    "baseToken": "0xDD27064967CaDba80f177BF692f6d2901cbf85F6",
+    "restricted": false,
+    "marginBank": "0x478769E1177C0773c43A593DCCc4Ad15F15F1394",
+    "registered": true,
+    "tradeable": true
+   },
+   {
+    "pool": "0x2a1822b02039DDf0e293F3F7243673fc03EAF16c",
+    "baseToken": "0xCAacB7C35A41f4E188a54FB074daF4fA09538BE0",
+    "restricted": false,
+    "marginBank": "0x478769E1177C0773c43A593DCCc4Ad15F15F1394",
+    "registered": true,
+    "tradeable": true
+   }
+  ]
+ },
+ "riskParams BTC": {
+  "ms": 169,
+  "ok": true,
+  "r": {
+   "initialMarginBps": "500n",
+   "maintenanceMarginBps": "250n",
+   "closeOutMarginBps": "125n",
+   "maxOpenInterest": "49363090000n",
+   "maxPositionSize": "10000000000n",
+   "takerFeeBpsTimes1k": "0n",
+   "makerFeeBpsTimes1k": "0n",
+   "insuranceFundShareBps": "0n"
+  }
+ },
+ "effImf BTC": {
+  "ms": 169,
+  "ok": true,
+  "r": "500n"
+ },
+ "voucherCampaign": {
+  "ms": 345,
+  "ok": true,
+  "r": {
+   "distributor": "0x2ACD9EFdA721450906bfE1bef3edE269636E42C4",
+   "collateralToken": "0xed7993A74dAe1e6656B704A424DcD8711aAf4F72",
+   "grantAmount": "1000000000000000000000n",
+   "expiryDurationSec": "1209600n",
+   "startsAt": "1790553600n",
+   "endsAt": "1798477478n",
+   "budgetRemaining": "433639000000000000000000000n",
+   "claimsRemaining": "433639n",
+   "leverageCapX": 20
+  }
+ },
+ "listPerpMarkets limit -1": {
+  "ms": 176,
+  "ok": false,
+  "err": "@somnia-chain/markets-sdk: indexer PerpMarkets failed: expected a non-negative 32-bit integer for type 'Int', but found a number",
+  "cls": "IndexerError"
+ }
+}

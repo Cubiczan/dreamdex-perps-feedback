@@ -1,0 +1,8 @@
+.env
+node_modules/
+dreamdex-bot-kit/
+js/
+*.html
+rsc.txt
+llms.txt
+bounty.html
