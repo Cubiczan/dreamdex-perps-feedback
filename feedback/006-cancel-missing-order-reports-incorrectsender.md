@@ -21,3 +21,6 @@ Both revert with `IncorrectSender(0xdFAF…DCbD, 0x00000000000000000000000000000
 - `@somnia-chain/markets-sdk` 0.32.1 (npm), `viem` 2.57.7, Node 20.19.2, Linux
 - Hideki testnet (chain 50383), RPC `https://api.hideki2.infra.testnet.somnia.network`, indexer `https://hideki-dev.smk.somnia.host/v1/graphql`
 - Signer: fresh EOA `0xdFAFacBA862d1a9d6fb94eCE7842E95e7091DCbD` (own MarginBank account, no OWNER_ADDRESS). Run on 2026-10-21 ~01:45–01:55 UTC. Harness: `harness/orderflow/` in this repo.
+
+## Update 2026-10-31: wrong-pool variant
+- Same misleading error when the order exists but is sent to the wrong pool: a live ETH order (`16528282690043769543227`, placed in `0xc57ffb1a4da3b09bde35f03772b650b820342118f64237a57eb7730a7741999a`) cancelled via `trader.cancelOrder({ pool: BTC pool, orderId })` reverts in simulation with `IncorrectSender(0xdFAF…DCbD, 0x0000…0000)` instead of an order-not-found error. No tx was sent; the order was then cancelled correctly on the ETH pool (`0xcb76fdff3966267cf079eb1cf95f01c23de5fd15714d36e1c8c9437fdf2bc5a2`). Run on 2026-10-31 ~10:10 UTC.
